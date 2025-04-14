@@ -2,10 +2,8 @@
   "name": "my-ci-app",
   "version": "1.0.0",
   "main": "index.js",
-  
-  
   "scripts": {
-    "test": "mocha"
+    "test": "mocha test/app.test.js"
   },
   "keywords": [],
   "author": "",
