@@ -1,9 +1,11 @@
+
 {
   "name": "my-ci-app",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "npx mocha test/app.test.js"
+    "start": "node index.js",
+    "test": "mocha Test/**/*.test.js"
   },
   "keywords": [],
   "author": "",
